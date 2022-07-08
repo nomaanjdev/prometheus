@@ -2,17 +2,17 @@
 
 ## Setup server
 
-From the root prometheus dir:
-`prometheus>npm i`
+From the root prometheus dir:  
+`prometheus>npm i`  
 `prometheus>npm start`
 
 ## Setup client
 
 Ensure the server is running as above (on 3001)
-From the root prometheus dir:
-  `prometheus>cd client`  
-  `prometheus>npm i`  
-  `prometheus>npm start`  
+From the root prometheus dir:  
+`prometheus>cd client`  
+`prometheus>npm i`  
+`prometheus>npm start`  
 
 ## Testing loading spinner
 
@@ -25,6 +25,6 @@ Modify the Authorization value returned by `getAuthorizationHeader()` in `client
 
 ## Tests
 
-Client app tests:
-`prometheus>cd client`
+Client app tests:  
+`prometheus>cd client`  
 `prometheus\client>npm test`
