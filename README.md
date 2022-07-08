@@ -11,8 +11,8 @@ From the root prometheus dir:
 Ensure the server is running as above (on 3001)
 From the root prometheus dir:  
 `prometheus>cd client`  
-`prometheus>npm i`  
-`prometheus>npm start`  
+`prometheus\client>npm i`  
+`prometheus\client>npm start`  
 
 ## Testing loading spinner
 
